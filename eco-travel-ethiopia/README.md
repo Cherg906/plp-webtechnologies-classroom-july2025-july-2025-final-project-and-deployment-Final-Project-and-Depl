@@ -8,7 +8,7 @@ A responsive, multi-page travel website showcasing Ethiopia's natural and cultur
 
 The website is deployed on GitHub Pages. Access it here:
 
-[Visit EcoTravel Ethiopia]([https://your-username.github.io/your-repo-name/)](https://cherg906.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
+[Visit EcoTravel Ethiopia](https://your-username.github.io/your-repo-name/)](https://cherg906.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
 
 ---
 
