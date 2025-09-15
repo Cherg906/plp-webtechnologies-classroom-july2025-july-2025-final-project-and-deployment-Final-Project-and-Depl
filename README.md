@@ -1,90 +1,101 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# EcoTravel Ethiopia 🌍
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+A responsive, multi-page travel website showcasing Ethiopia's natural and cultural wonders. Designed to promote sustainable and eco-friendly travel with interactive features, a gallery, travel tips, and a contact form. Includes dark mode and fully responsive design.
 
 ---
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+## Live Demo
 
-Before you write any code, take time to plan:
+The website is deployed on GitHub Pages. Access it here:
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+[Visit EcoTravel Ethiopia](https://your-username.github.io/your-repo-name/)
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## Features
 
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+- **Home Page**: Hero section highlighting Ethiopia's natural and cultural sites.
+- **Destinations Page**: Showcase of top eco-friendly destinations with images and descriptions.
+- **Tips Page**: Eco-friendly travel tips for responsible tourism.
+- **Gallery Page**: Image slideshow of Ethiopia’s landmarks and natural beauty.
+- **Contact Page**: Contact form for user messages with basic validation.
+- **Dark Mode**: Toggle dark/light mode for better accessibility.
+- **Responsive Design**: Works seamlessly across mobile, tablet, and desktop screens.
+- **Reveal Animations**: Smooth scroll-based reveal effects for content.
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## Installation
 
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Cherg906/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd eco-travel-ethiopia
+   ```
+3. Open `index.html` in your browser to view the site.
 
 ---
 
-## Deliverables
+## Usage
 
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+- Use the **navbar** to navigate between pages: Home, Destinations, Tips, Gallery, Contact.
+- Toggle **dark mode** using the 🌙 button in the navbar.
+- On the **Gallery page**, images cycle automatically in a slideshow.
+- Submit inquiries via the **Contact page** form (basic HTML validation included).
 
 ---
 
-## Outcome
+## File Structure
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+```
+eco-travel-ethiopia/
+│
+├── css/
+│   └── style.css       # Main stylesheet
+├── js/
+│   └── script.js       # JavaScript for dark mode and animations
+├── images/
+│   └── (all images used in hero, destinations, gallery)
+├── index.html          # Home page
+├── destinations.html   # Destinations page
+├── tips.html           # Travel tips page
+├── gallery.html        # Gallery page
+├── contact.html        # Contact page
+└── README.md           # Project documentation
+```
+
+---
+
+## Responsive Design
+
+- **Mobile-first approach** with CSS media queries.  
+- Layouts adapt to different screen widths:  
+  - Small devices: content stacked vertically, nav links wrap.  
+  - Medium devices: padding and font sizes increased.  
+  - Large/Extra-large devices: hero height, cards, buttons, and text scale up for readability.  
+- Images and slideshows are **fully responsive** using `max-width: 100%` and `object-fit: cover`.
+
+---
+
+## Dark Mode
+
+- Toggle dark mode via the 🌙 button.
+- Changes background colors and text colors site-wide.  
+- Implemented using CSS class `.dark-mode` and optional JavaScript to adjust form and tip backgrounds.
+
+---
+
+## Credits
+
+- Built by **Chernet Getaneh** © 2025  
+- Images sourced from Wikimedia Commons.  
+- Inspired by eco-tourism initiatives promoting sustainable travel in Ethiopia.
+
+---
+
+## License
+
+This project is open-source. Feel free to use, modify, and share responsibly.
