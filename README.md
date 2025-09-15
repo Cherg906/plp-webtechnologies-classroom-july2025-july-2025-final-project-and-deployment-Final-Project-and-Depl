@@ -8,7 +8,7 @@ A responsive, multi-page travel website showcasing Ethiopia's natural and cultur
 
 The website is deployed on GitHub Pages. Access it here:
 
-[Visit EcoTravel Ethiopia](https://your-username.github.io/your-repo-name/)
+(https://lively-salamander-fb4d40.netlify.app/)
 
 ---
 
